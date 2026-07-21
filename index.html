@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0F2C59">
+  <meta name="description" content="Palestra interativa sobre inteligência artificial na educação, profissões e mercado de trabalho, com evidências, 71 ferramentas e plano de implementação.">
+  <title>IA na Educação — Profissões, aprendizagem e futuro do trabalho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="topo">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <a class="brand" href="#topo" aria-label="Voltar ao início">
+      <span class="brand-mark" aria-hidden="true">IA</span>
+      <span><strong>Educação + Futuro</strong><small>Palestra interativa</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu</button>
+    <nav class="primary-nav" id="menu-principal" aria-label="Navegação principal">
+      <a href="#historia">História</a>
+      <a href="#evidencias">Evidências</a>
+      <a href="#profissoes">Profissões</a>
+      <a href="#catalogo">71 IAs</a>
+      <a href="#implementacao">Plano</a>
+      <a class="nav-cta" href="#apresentacao">Ver slides</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-dark" aria-labelledby="titulo-principal">
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="hero-grid wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow copper">Palestra completa • 90 minutos + apêndice</p>
+          <h1 id="titulo-principal">Inteligência artificial na educação</h1>
+          <p class="hero-kicker">O futuro não será decidido por quem usa mais tecnologia, mas por quem aprende a formular problemas, verificar respostas e assumir responsabilidade.</p>
+          <div class="hero-actions">
+            <a class="button button-copper" href="#apresentacao">Iniciar apresentação</a>
+            <a class="button button-ghost" href="#catalogo">Explorar 71 ferramentas</a>
+          </div>
+          <div class="hero-trust">
+            <span>Fontes primárias</span>
+            <span>Interações com o público</span>
+            <span>Plano de 90 dias</span>
+          </div>
+        </div>
+        <figure class="hero-visual reveal">
+          <img src="assets/images/classroom.jpg" alt="Professora orienta estudantes que utilizam notebooks em sala de aula">
+          <figcaption>
+            <span class="live-dot" aria-hidden="true"></span>
+            IA com propósito pedagógico, mediação e evidência
+          </figcaption>
+        </figure>
+      </div>
+      <div class="hero-stats wrap" aria-label="Três números-chave da palestra">
+        <article><strong>70%</strong><span>dos alunos brasileiros do ensino médio já usaram IA em pesquisas ou atividades escolares</span><a href="https://cetic.br/media/docs/publicacoes/7/pt/20251124074142/estudos_setoriais-ia_na_educacao.pdf" target="_blank" rel="noopener">TIC Educação 2024</a></article>
+        <article><strong>1 em 4</strong><span>trabalhadores está em ocupação com alguma exposição à IA generativa</span><a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure" target="_blank" rel="noopener">OIT, 2025</a></article>
+        <article><strong>59/100</strong><span>trabalhadores poderão precisar de aperfeiçoamento ou requalificação até 2030</span><a href="https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/" target="_blank" rel="noopener">WEF, 2025</a></article>
+      </div>
+    </section>
+
+    <section class="route-strip" aria-label="Percurso da palestra">
+      <div class="wrap route-grid">
+        <a href="#historia"><b>01</b><span>De onde viemos</span></a>
+        <a href="#mito"><b>02</b><span>Mito x evidência</span></a>
+        <a href="#evidencias"><b>03</b><span>O que funciona</span></a>
+        <a href="#preparo"><b>04</b><span>O que pode falhar</span></a>
+        <a href="#profissoes"><b>05</b><span>Trabalho aumentado</span></a>
+        <a href="#implementacao"><b>06</b><span>Como agir</span></a>
+      </div>
+    </section>
+
+    <section class="section section-light" id="historia" aria-labelledby="historia-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Cronologia em duas trilhas</p>
+          <h2 id="historia-titulo">A IA e a tecnologia educacional não nasceram ontem</h2>
+          <p>Do laboratório universitário ao copiloto cotidiano, duas histórias avançaram em paralelo até convergirem em 2022.</p>
+        </div>
+        <div class="dual-timeline reveal">
+          <div class="timeline-label">IA</div>
+          <ol class="timeline-track timeline-ai">
+            <li><time>1950</time><b>Turing</b><span>A pergunta sobre pensamento de máquinas ganha forma operacional.</span></li>
+            <li><time>1956</time><b>Dartmouth</b><span>O campo recebe o nome “inteligência artificial”.</span></li>
+            <li><time>1997</time><b>Deep Blue</b><span>Um sistema vence o campeão mundial de xadrez.</span></li>
+            <li><time>2012</time><b>Deep learning</b><span>Redes profundas escalam reconhecimento de padrões.</span></li>
+            <li><time>2017</time><b>Transformers</b><span>Surge a arquitetura-base dos grandes modelos de linguagem.</span></li>
+            <li><time>2022</time><b>IA generativa</b><span>A interação em linguagem natural chega ao público em massa.</span></li>
+          </ol>
+          <div class="timeline-label green">Educação</div>
+          <ol class="timeline-track timeline-education">
+            <li><time>1960</time><b>PLATO</b><span>Ensino computacional começa no ensino superior.</span></li>
+            <li><time>1980s</time><b>Microcomputadores</b><span>Laboratórios se espalham pelas escolas.</span></li>
+            <li><time>1990s</time><b>Web + LMS</b><span>Conteúdo e gestão da aprendizagem tornam-se online.</span></li>
+            <li><time>2012</time><b>MOOCs</b><span>Cursos universitários ganham escala global.</span></li>
+            <li><time>2020</time><b>Ensino remoto</b><span>Infraestrutura digital torna-se essencial.</span></li>
+            <li><time>2022</time><b>Copilotos</b><span>Tutoria, produção e feedback entram na rotina.</span></li>
+          </ol>
+        </div>
+        <div class="source-row">
+          <a href="https://ai.dartmouth.edu/our-story" target="_blank" rel="noopener">Dartmouth</a>
+          <a href="https://physics.illinois.edu/people/history/PLATO" target="_blank" rel="noopener">University of Illinois — PLATO</a>
+          <a href="https://nces.ed.gov/pubs2003/200315.pdf" target="_blank" rel="noopener">NCES — tecnologia nas escolas</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="mito" aria-labelledby="mito-titulo">
+      <div class="wrap split-layout">
+        <div class="reveal">
+          <p class="eyebrow">Interação 1 • posicione-se</p>
+          <h2 id="mito-titulo">O Vale do Silício abandonou a tecnologia?</h2>
+          <p class="lead">Escolha a afirmação mais precisa antes de revelar a checagem.</p>
+          <form class="myth-poll" id="myth-poll">
+            <label><input type="radio" name="mito" value="a"><span><b>A</b> Sim. As escolas voltaram apenas à lousa e ao caderno.</span></label>
+            <label><input type="radio" name="mito" value="b"><span><b>B</b> Em parte. Há escolhas de baixo uso de telas, sobretudo na infância.</span></label>
+            <label><input type="radio" name="mito" value="c"><span><b>C</b> Não. A notícia foi inventada do começo ao fim.</span></label>
+            <button class="button button-navy" type="submit">Revelar evidência</button>
+          </form>
+        </div>
+        <aside class="myth-result" id="myth-result" aria-live="polite" tabindex="-1" inert>
+          <p class="eyebrow">Resposta mais precisa</p>
+          <strong>B</strong>
+          <h3>Um caso real virou uma generalização falsa.</h3>
+          <p>Famílias e escolas privadas Waldorf podem limitar telas, especialmente para crianças menores. Isso não significa que toda a região rejeitou tecnologia, nem que jovens, universidades ou trabalhadores voltaram ao analógico.</p>
+          <ul>
+            <li>Palo Alto mantém princípios e recursos para uso responsável de IA.</li>
+            <li>Santa Clara oferece formação em IA para educadores.</li>
+            <li>Reduzir tela recreativa e ensinar alfabetização em IA são decisões compatíveis.</li>
+          </ul>
+          <div class="source-row">
+            <a href="https://www.lemonde.fr/en/pixels/article/2024/03/25/no-tech-bosses-don-t-ban-their-kids-from-using-screens_6653457_13.html" target="_blank" rel="noopener">Checagem do Le Monde</a>
+            <a href="https://www.pausd.org/school-life/education-technology/ai" target="_blank" rel="noopener">Palo Alto USD</a>
+            <a href="https://www.sccoe.org/resources/AI/Pages/default.aspx" target="_blank" rel="noopener">Santa Clara COE</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-light" id="evidencias" aria-labelledby="evidencias-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Evidência antes de entusiasmo</p>
+          <h2 id="evidencias-titulo">O ganho aparece quando a IA recebe arquitetura pedagógica</h2>
+          <p>Os melhores resultados combinam conteúdo validado, andaimes, feedback, ritmo próprio e um humano responsável.</p>
+        </div>
+        <div class="evidence-grid reveal">
+          <article class="metric-card"><span class="metric-tag">Nigéria • 6 semanas</span><strong>+0,31 DP</strong><h3>Tutoria de inglês com Copilot</h3><p>Programa curricular mediado por professores. O resultado não isola “a ferramenta”: mede a intervenção completa.</p><a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099548105192529324" target="_blank" rel="noopener">Banco Mundial, 2025</a></article>
+          <article class="metric-card"><span class="metric-tag">Stanford • &gt;700 tutores</span><strong>+4 p.p.</strong><h3>Tutor CoPilot em matemática</h3><p>Probabilidade maior de domínio; o ganho chegou a 9 p.p. entre tutores menos experientes.</p><a href="https://nssa.stanford.edu/studies/tutor-copilot-human-ai-approach-scaling-real-time-expertise" target="_blank" rel="noopener">Stanford NSSA</a></article>
+          <article class="metric-card"><span class="metric-tag">Harvard • física</span><strong>0,73–1,3 DP</strong><h3>Tutor guiado supera aula ativa no pós-teste</h3><p>Contexto específico, respostas cuidadosamente desenhadas e tempo mediano de 49 minutos versus 60.</p><a href="https://www.nature.com/articles/s41598-025-97652-6" target="_blank" rel="noopener">Scientific Reports, 2025</a></article>
+        </div>
+        <p class="caution"><b>Limite da evidência:</b> disciplinas, contextos e ferramentas são específicos. Os resultados apoiam IA bem desenhada; não autorizam substituir professores.</p>
+
+        <div class="global-head reveal">
+          <div><p class="eyebrow">Panorama internacional</p><h3>Sistemas avançados formam capacidade — não apenas compram ferramentas</h3></div>
+          <p>Política não prova impacto, mas revela prioridades: progressão curricular, ética, formação docente, pilotos e governança.</p>
+        </div>
+        <div class="country-grid reveal">
+          <article><span>CN</span><h4>China</h4><b>Currículo progressivo</b><p>Percepção no primário, uso no fundamental e projetos avançados no ensino médio.</p><a href="https://en.moe.gov.cn/news/press_releases/202412/t20241210_1166454.html" target="_blank" rel="noopener">Ministério da Educação</a></article>
+          <article><span>US</span><h4>Estados Unidos</h4><b>Humano no circuito</b><p>O guia federal coloca professores e estudantes no centro das decisões e da avaliação.</p><a href="https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf" target="_blank" rel="noopener">U.S. Department of Education</a></article>
+          <article><span>EU</span><h4>União Europeia</h4><b>Ética aplicável</b><p>Diretrizes práticas para educadores ligadas à estratégia digital e à regulação de IA.</p><a href="https://education.ec.europa.eu/focus-topics/digital-education/actions/plan/ethical-guidelines-for-educators-on-using-artificial-intelligence" target="_blank" rel="noopener">Comissão Europeia</a></article>
+          <article><span>UK</span><h4>Reino Unido</h4><b>Pilotos com cautela</b><p>Escolas medem tempo docente, qualidade, proteção de dados e liderança antes de escalar.</p><a href="https://www.gov.uk/government/publications/ai-in-schools-and-further-education-findings-from-early-adopters/the-biggest-risk-is-doing-nothing-insights-from-early-adopters-of-artificial-intelligence-in-schools-and-further-education-colleges" target="_blank" rel="noopener">Department for Education</a></article>
+          <article><span>BR</span><h4>Brasil</h4><b>Adoção já começou</b><p>A TIC Educação mede o uso real; CAPES e UFRN abriram 40 mil vagas de formação para educadores.</p><a href="https://www.gov.br/capes/pt-br/assuntos/noticias/capes-e-ufrn-abrem-curso-de-inteligencia-artificial-para-educadores" target="_blank" rel="noopener">CAPES / MEC</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark preparedness" id="preparo" aria-labelledby="preparo-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow copper">O ponto de inflexão é humano</p>
+          <h2 id="preparo-titulo">Sem preparo docente, velocidade amplia erro. Com preparo, pode ampliar aprendizagem.</h2>
+        </div>
+        <div class="teacher-numbers reveal">
+          <article><strong>≈ 1/3</strong><span>dos docentes pesquisados no TALIS 2024 declarou usar IA</span></article>
+          <article><strong>3 em 4</strong><span>disseram não ter conhecimentos ou competências para ensinar com IA</span></article>
+          <article><strong>19% + 42%</strong><span>das instituições ouvidas pela UNESCO tinham política formal ou estavam desenvolvendo uma</span></article>
+        </div>
+        <div class="source-row on-dark">
+          <a href="https://www.oecd.org/en/publications/results-from-talis-2024_90df6235-en.html" target="_blank" rel="noopener">OECD TALIS 2024</a>
+          <a href="https://www.unesco.org/en/articles/unesco-survey-two-thirds-higher-education-institutions-have-or-are-developing-guidance-ai-use" target="_blank" rel="noopener">UNESCO, ensino superior</a>
+        </div>
+        <div class="risk-map reveal">
+          <article><b>Alucinação</b><span>→</span><p>verificar afirmações e abrir fontes</p></article>
+          <article><b>Viés</b><span>→</span><p>testar grupos, linguagem e resultados</p></article>
+          <article><b>Privacidade</b><span>→</span><p>classificar dados antes de enviar</p></article>
+          <article><b>Dependência</b><span>→</span><p>preservar esforço cognitivo e autoria</p></article>
+          <article><b>Desigualdade</b><span>→</span><p>garantir acesso, alternativas e mediação</p></article>
+        </div>
+
+        <div class="cognitive-loop reveal">
+          <div>
+            <p class="eyebrow">Aprendizagem e mente humana</p>
+            <h3>IA produtiva não encurta o pensamento: torna o pensamento visível.</h3>
+            <p>Uma atividade forte pede que o estudante tente antes, dialogue com a ferramenta e reconstrua a resposta com suas próprias razões. Outra estratégia é “aprender ensinando”: explicar o conceito à IA, testar perguntas e corrigir a explicação recebida.</p>
+          </div>
+          <ol aria-label="Ciclo cognitivo com IA">
+            <li><span>1</span><b>Tentar</b><small>Ative conhecimento prévio e produza uma primeira hipótese.</small></li>
+            <li><span>2</span><b>Dialogar</b><small>Peça contrapontos, exemplos e perguntas — não apenas a resposta.</small></li>
+            <li><span>3</span><b>Reconstruir</b><small>Cheque fontes, explique escolhas e produza síntese autoral.</small></li>
+          </ol>
+        </div>
+
+        <div class="readiness-card reveal" id="diagnostico">
+          <div>
+            <p class="eyebrow">Interação 2 • diagnóstico de prontidão</p>
+            <h3>Em qual estágio está sua instituição?</h3>
+            <p>Marque de 0 a 3 em cada dimensão. O cálculo é local e não envia dados.</p>
+          </div>
+          <form id="readiness-form" class="readiness-form">
+            <label>Objetivo pedagógico <input type="range" min="0" max="3" value="0" data-label="Objetivo pedagógico"><output>0</output></label>
+            <label>Formação docente <input type="range" min="0" max="3" value="0" data-label="Formação docente"><output>0</output></label>
+            <label>Política e dados <input type="range" min="0" max="3" value="0" data-label="Política e dados"><output>0</output></label>
+            <label>Avaliação da aprendizagem <input type="range" min="0" max="3" value="0" data-label="Avaliação"><output>0</output></label>
+            <label>Evidência e monitoramento <input type="range" min="0" max="3" value="0" data-label="Evidência"><output>0</output></label>
+          </form>
+          <div class="readiness-result" aria-live="polite"><strong id="readiness-score">0/15</strong><span id="readiness-label">Estágio: explorar com segurança</span><p id="readiness-next">Próximo passo: escolha um problema concreto e forme um pequeno grupo responsável.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="profissoes" aria-labelledby="profissoes-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Profissões e mercado de trabalho</p>
+          <h2 id="profissoes-titulo">A IA não atinge profissões como blocos. Ela recombina tarefas.</h2>
+          <p>O valor está na combinação: domínio profissional + alfabetização em IA e dados + capacidades humanas.</p>
+        </div>
+        <div class="market-layout reveal">
+          <figure><img src="assets/images/professions-microsoft.png" alt="Pessoas trabalhando em atendimento, agricultura, medicina, engenharia e indústria"><figcaption>Modelos especializados já aparecem em diferentes cadeias profissionais. Imagem: Microsoft.</figcaption></figure>
+          <div class="market-stats">
+            <article><strong>22%</strong><span>dos empregos formais atuais podem passar por criação ou deslocamento até 2030</span><small>WEF: +170 mi criados, −92 mi deslocados, saldo +78 mi; vários macrofatores.</small></article>
+            <article><strong>25%</strong><span>do emprego global tem alguma exposição à IA generativa; 3,3% está na faixa mais alta</span><small>OIT: exposição técnica não é sinônimo de demissão.</small></article>
+            <article><strong>62%</strong><span>de prêmio salarial médio em anúncios que pedem competências específicas de IA</span><small>PwC 2026: análise observacional de mais de 1 bilhão de anúncios em 27 países e territórios.</small></article>
+          </div>
+        </div>
+        <div class="source-row">
+          <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank" rel="noopener">WEF Future of Jobs 2025</a>
+          <a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure" target="_blank" rel="noopener">OIT, índice global 2025</a>
+          <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html" target="_blank" rel="noopener">PwC AI Jobs Barometer 2026</a>
+        </div>
+
+        <div class="profession-explorer reveal">
+          <div class="explorer-intro">
+            <p class="eyebrow">Interação 3 • explorador</p>
+            <h3>Escolha uma profissão e redesenhe o trabalho</h3>
+            <label for="profession-select">Profissão</label>
+            <select id="profession-select"></select>
+            <div class="profession-nav" aria-label="Navegar pelas profissões"><button type="button" id="profession-prev">Anterior</button><span id="profession-count"></span><button type="button" id="profession-next">Próxima</button></div>
+          </div>
+          <div class="profession-output" id="profession-output" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="setores" aria-labelledby="setores-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Da sala de aula ao mundo real</p>
+          <h2 id="setores-titulo">Entender IA já é parte da alfabetização para ciência, saúde e produção</h2>
+          <p>Previsão computacional não é verdade pronta: cada aplicação exige validação, contexto e responsabilidade profissional.</p>
+        </div>
+        <div class="sector-grid reveal">
+          <article class="sector-card">
+            <img src="assets/images/healthcare.jpg" alt="Profissional de saúde analisa imagem médica em uma tela">
+            <div><span>Medicina</span><h3>Mais dispositivos, mais necessidade de avaliação</h3><p>A FDA mantém uma lista pública de dispositivos médicos habilitados por IA. A lista documenta autorizações; não significa desempenho perfeito em toda população.</p><a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices" target="_blank" rel="noopener">Abrir base da FDA</a></div>
+          </article>
+          <article class="sector-card">
+            <img src="assets/images/alphafold.jpg" alt="Visualização científica de estrutura molecular prevista por IA">
+            <div><span>Farmacologia e biologia</span><h3>Hipóteses biomoleculares em nova escala</h3><p>AlphaFold ajuda a prever estruturas e interações. A saída orienta pesquisa, mas não substitui experimento nem comprova eficácia clínica.</p><a href="https://deepmind.google/science/alphafold/" target="_blank" rel="noopener">Conhecer o AlphaFold</a></div>
+          </article>
+          <article class="sector-card">
+            <img src="assets/images/deere.jpg" alt="Máquina agrícola utiliza visão computacional para aplicação localizada">
+            <div><span>Agricultura</span><h3>Aplicação localizada com visão computacional</h3><p>Sistemas identificam plantas e controlam pulverização em tempo real. Agrônomos continuam responsáveis por manejo, segurança, solo, clima e viabilidade.</p><a href="https://about.deere.com/en-us/sustainability/smart-spray" target="_blank" rel="noopener">John Deere Smart Apply</a></div>
+          </article>
+        </div>
+        <div class="video-panel reveal">
+          <div><p class="eyebrow">Vídeo curto • aplicação científica</p><h3>Como o AlphaFold mudou a previsão de estruturas de proteínas</h3><p>Assista e discuta: onde termina a previsão e onde começa a validação científica?</p></div>
+          <div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/gg7WjuFs8F4" title="Vídeo oficial sobre AlphaFold" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper" id="oficina" aria-labelledby="oficina-titulo">
+      <div class="wrap workshop-layout">
+        <div class="workshop-intro reveal">
+          <p class="eyebrow">Interação 4 • oficina de 12 minutos</p>
+          <h2 id="oficina-titulo">Redesenhe uma tarefa real — não apenas um prompt</h2>
+          <p>Escolha uma entrega semanal. Separe o que pode ser acelerado, o que merece copilotagem e o que precisa permanecer sob autoria humana.</p>
+          <ol>
+            <li>2 min: descreva a entrega e o padrão de qualidade.</li>
+            <li>3 min: classifique tarefas nas três zonas.</li>
+            <li>3 min: defina evidências e revisão.</li>
+            <li>2 min: troque com uma dupla.</li>
+            <li>2 min: escolha um experimento pequeno.</li>
+          </ol>
+          <p class="save-status" id="save-status" aria-live="polite">Seu rascunho fica salvo somente neste navegador.</p>
+        </div>
+        <form class="workshop-form reveal" id="workshop-form">
+          <label>Entrega ou problema real<textarea name="entrega" rows="3" placeholder="Ex.: preparar feedback formativo para 30 textos"></textarea></label>
+          <label>Critério de qualidade<textarea name="qualidade" rows="2" placeholder="O que precisa ser verdadeiro, útil e adequado?"></textarea></label>
+          <div class="zone-grid">
+            <label class="zone accelerate"><span>01 • Acelerar</span><small>Rotina, busca, organização</small><textarea name="acelerar" rows="5" placeholder="Tarefas de baixo risco..."></textarea></label>
+            <label class="zone copilot"><span>02 • Copilotar</span><small>Rascunho + revisão</small><textarea name="copilotar" rows="5" placeholder="Tarefas para colaboração..."></textarea></label>
+            <label class="zone human"><span>03 • Preservar humano</span><small>Decisão, vínculo, direitos</small><textarea name="humano" rows="5" placeholder="O que não deve ser delegado..."></textarea></label>
+          </div>
+          <label>Como provar qualidade, aprendizagem e segurança?<textarea name="evidencias" rows="3" placeholder="Indicadores, amostras, rubrica, registro de fontes, revisão humana..."></textarea></label>
+          <label>Experimento para a próxima semana<textarea name="experimento" rows="2" placeholder="Pequeno, reversível, mensurável e com responsável definido"></textarea></label>
+          <div class="form-actions"><button class="button button-navy" type="button" id="export-workshop">Exportar roteiro</button><button class="button button-outline" type="button" id="print-workshop">Imprimir</button><button class="text-button" type="reset">Limpar</button></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-dark catalog-section" id="catalogo" aria-labelledby="catalogo-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow copper">Catálogo verificado em 20/07/2026</p>
+          <h2 id="catalogo-titulo"><span id="catalog-total">71</span> IAs para aprender e potencializar o trabalho</h2>
+          <p>Links oficiais, capacidades, perfis de uso, formas de acesso e um cuidado prático para cada ferramenta.</p>
+        </div>
+        <div class="catalog-controls reveal">
+          <label class="search-box"><span>Buscar</span><input type="search" id="tool-search" placeholder="Nome, atividade ou profissão…" autocomplete="off"><kbd>/</kbd></label>
+          <label><span>Tema</span><select id="theme-filter"><option value="todos">Todos os temas</option></select></label>
+          <label><span>Acesso</span><select id="access-filter"><option value="todos">Todos</option><option value="gratuito">Gratuito ou freemium</option><option value="pago">Somente pago / empresarial</option></select></label>
+          <button class="button button-ghost compact" id="clear-filters" type="button">Limpar filtros</button>
+        </div>
+        <div class="theme-chips" id="theme-chips" aria-label="Filtrar por tema"></div>
+        <div class="catalog-summary"><strong id="catalog-count">71 ferramentas</strong><span id="catalog-theme-description">Explore o catálogo completo.</span></div>
+        <div class="tool-grid" id="tool-grid" aria-live="polite"></div>
+        <button class="button button-ghost load-more" id="load-more" type="button">Mostrar mais ferramentas</button>
+        <p class="catalog-note">Planos, limites e nomes comerciais mudam. Confirme a página oficial antes de contratar ou tratar dados sensíveis. IA apoia — não substitui julgamento, formação, ética ou supervisão humana.</p>
+      </div>
+    </section>
+
+    <section class="section section-light" id="implementacao" aria-labelledby="implementacao-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Do palco para a prática</p>
+          <h2 id="implementacao-titulo">Roteiro de 90 minutos + implementação em 90 dias</h2>
+          <p>Comece pelo problema e pela capacidade humana; só então escolha ferramenta, processo e escala.</p>
+        </div>
+        <div class="implementation-tabs reveal" role="tablist" aria-label="Escolher plano">
+          <button id="tab-talk" type="button" role="tab" aria-selected="true" aria-controls="panel-talk">Palestra • 90 min</button>
+          <button id="tab-plan" type="button" role="tab" aria-selected="false" aria-controls="panel-plan">Instituição • 90 dias</button>
+        </div>
+        <div class="implementation-panel" id="panel-talk" role="tabpanel" aria-labelledby="tab-talk">
+          <ol class="agenda-list">
+            <li><time>00–12</time><div><b>De onde viemos</b><span>Cronologia da IA e da tecnologia educacional</span></div></li>
+            <li><time>12–24</time><div><b>O mito</b><span>Vale do Silício, telas e o falso retorno ao analógico</span></div></li>
+            <li><time>24–40</time><div><b>O que funciona</b><span>Evidências, países e critérios de qualidade</span></div></li>
+            <li><time>40–54</time><div><b>O que pode falhar</b><span>Despreparo docente, ética, avaliação e verificação</span></div></li>
+            <li><time>54–76</time><div><b>Como muda o trabalho</b><span>Setores, profissões, tarefas e competências</span></div></li>
+            <li><time>76–88</time><div><b>Como implementar</b><span>Oficina e piloto responsável</span></div></li>
+            <li><time>88–90</time><div><b>Compromisso</b><span>Uma decisão concreta para a próxima semana</span></div></li>
+          </ol>
+        </div>
+        <div class="implementation-panel" id="panel-plan" role="tabpanel" aria-labelledby="tab-plan" hidden>
+          <div class="day-plan">
+            <article><span>Dias 0–30</span><h3>Diagnosticar e proteger</h3><ul><li>Ouvir professores e estudantes</li><li>Mapear usos reais, dados e riscos</li><li>Escolher uma dor mensurável</li><li>Publicar regras mínimas provisórias</li></ul></article>
+            <article><span>Dias 31–60</span><h3>Pilotar e formar</h3><ul><li>Treinar pequena equipe</li><li>Comparar antes/depois</li><li>Revisar amostras e incidentes</li><li>Registrar prompts, fontes e decisões</li></ul></article>
+            <article><span>Dias 61–90</span><h3>Decidir e escalar</h3><ul><li>Medir aprendizagem e tempo</li><li>Ouvir grupos afetados</li><li>Ajustar governança e contratos</li><li>Escalar, redesenhar ou interromper</li></ul></article>
+          </div>
+          <div class="governance-check"><h3>Política mínima antes da escala</h3><div><span>Finalidade autorizada</span><span>Dados proibidos</span><span>Revisão humana</span><span>Transparência de uso</span><span>Canal de incidente</span><span>Direito de contestação</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper presentation-section" id="apresentacao" aria-labelledby="apresentacao-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Apresentação completa</p>
+          <h2 id="apresentacao-titulo">Conduza a palestra slide a slide</h2>
+          <p>Use as setas do teclado, abra em tela cheia ou baixe o arquivo editável.</p>
+        </div>
+        <div class="slide-viewer reveal" id="slide-viewer" tabindex="0" aria-label="Visualizador da apresentação">
+          <div class="viewer-topbar">
+            <div><span class="viewer-dot"></span><b>IA na Educação</b><span id="slide-position">Slide 1</span></div>
+            <div class="viewer-actions">
+              <button type="button" id="toggle-thumbnails" aria-pressed="false">Miniaturas</button>
+              <button type="button" id="fullscreen-viewer">Tela cheia</button>
+            </div>
+          </div>
+          <div class="viewer-body">
+            <aside class="slide-thumbnails" id="slide-thumbnails" aria-label="Miniaturas dos slides" hidden></aside>
+            <div class="slide-stage">
+              <img id="slide-image" src="assets/slides/slide-1.png" alt="Slide 1 da apresentação">
+              <div class="slide-placeholder" id="slide-placeholder" hidden><span>01</span><h3>Prévia em preparação</h3><p>Os slides renderizados serão carregados automaticamente nesta sequência.</p></div>
+              <button class="slide-arrow prev" id="slide-prev" type="button" aria-label="Slide anterior">←</button>
+              <button class="slide-arrow next" id="slide-next" type="button" aria-label="Próximo slide">→</button>
+            </div>
+          </div>
+          <div class="viewer-progress"><span id="slide-progress"></span></div>
+        </div>
+        <div class="presentation-actions">
+          <a class="button button-navy" href="assets/ia-na-educacao-profissoes-e-mercado.pptx" download>Baixar PowerPoint completo</a>
+          <span>Inclui notas de fala, links clicáveis e apêndice com ferramentas.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light sources-section" id="fontes" aria-labelledby="fontes-titulo">
+      <div class="wrap">
+        <div class="section-heading reveal"><p class="eyebrow">Transparência</p><h2 id="fontes-titulo">Fontes principais e como ler os números</h2><p>Percentuais sem população, data ou ressalva podem enganar. Por isso, cada estatística da palestra aponta para a fonte original.</p></div>
+        <div class="source-groups reveal">
+          <details open><summary>Educação, professores e governança</summary><div>
+            <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research" target="_blank" rel="noopener"><b>UNESCO</b><span>Guidance for Generative AI in Education and Research</span></a>
+            <a href="https://www.unesco.org/pt/articles/marco-referencial-de-competencias-em-ia-para-professores" target="_blank" rel="noopener"><b>UNESCO</b><span>Marco referencial de competências em IA para professores</span></a>
+            <a href="https://www.oecd.org/en/publications/results-from-talis-2024_90df6235-en.html" target="_blank" rel="noopener"><b>OECD</b><span>Results from TALIS 2024</span></a>
+            <a href="https://cetic.br/media/docs/publicacoes/7/pt/20251124074142/estudos_setoriais-ia_na_educacao.pdf" target="_blank" rel="noopener"><b>NIC.br / Cetic.br</b><span>TIC Educação 2024 — IA na educação</span></a>
+            <a href="https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf" target="_blank" rel="noopener"><b>U.S. Department of Education</b><span>AI and the Future of Teaching and Learning</span></a>
+          </div></details>
+          <details><summary>Aprendizagem e estudos controlados</summary><div>
+            <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099548105192529324" target="_blank" rel="noopener"><b>Banco Mundial</b><span>Tutoria com IA na Nigéria</span></a>
+            <a href="https://nssa.stanford.edu/studies/tutor-copilot-human-ai-approach-scaling-real-time-expertise" target="_blank" rel="noopener"><b>Stanford</b><span>Tutor CoPilot</span></a>
+            <a href="https://www.nature.com/articles/s41598-025-97652-6" target="_blank" rel="noopener"><b>Scientific Reports</b><span>Tutor de física em curso universitário</span></a>
+            <a href="https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf" target="_blank" rel="noopener"><b>Gallup / Walton</b><span>Teaching for Tomorrow, 2025</span></a>
+          </div></details>
+          <details><summary>Profissões e mercado de trabalho</summary><div>
+            <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank" rel="noopener"><b>World Economic Forum</b><span>Future of Jobs Report 2025</span></a>
+            <a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure" target="_blank" rel="noopener"><b>International Labour Organization</b><span>Generative AI and Jobs, 2025</span></a>
+            <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html" target="_blank" rel="noopener"><b>PwC</b><span>Global AI Jobs Barometer 2026</span></a>
+            <a href="https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html" target="_blank" rel="noopener"><b>OECD</b><span>AI and Skills</span></a>
+          </div></details>
+          <details><summary>Aplicações setoriais</summary><div>
+            <a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices" target="_blank" rel="noopener"><b>FDA</b><span>AI-enabled medical devices</span></a>
+            <a href="https://deepmind.google/science/alphafold/" target="_blank" rel="noopener"><b>Google DeepMind</b><span>AlphaFold</span></a>
+            <a href="https://about.deere.com/en-us/sustainability/smart-spray" target="_blank" rel="noopener"><b>John Deere</b><span>Smart Apply</span></a>
+          </div></details>
+        </div>
+        <aside class="materials-note"><b>Materiais de apoio incorporados ao enredo</b><p>“Guia visual — slides IA e educação”, “AI and the Human Mind” e “Plano de palestra — IA na educação”, fornecidos pelo usuário, orientaram a arquitetura visual, as metáforas de cognição e a sequência de implementação. Números públicos foram validados em fontes primárias antes de entrar na página.</p></aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><div><span class="brand-mark" aria-hidden="true">IA</span><p><b>Educação + Futuro</b><br>Aprender para decidir, criar e responder.</p></div><div><a href="#topo">Voltar ao topo ↑</a><p>Conteúdo atualizado em 20 de julho de 2026.</p></div></div>
+  </footer>
+
+  <noscript><div class="noscript">Ative o JavaScript para usar filtros, diagnósticos, oficina e visualizador de slides.</div></noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>
